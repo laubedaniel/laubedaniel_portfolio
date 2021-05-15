@@ -1,0 +1,168 @@
+
+/*Laube Dániel GPKZ8G L5*/
+body
+{
+	font-size: 16px;
+	font-family: 'Russo One', sans-serif;
+	font-weight: 300;
+
+}
+*, *::before, *::after
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #72A0C1;
+}
+
+}
+.teteje
+{
+	
+	margin: 20px;
+	padding: 20px;
+
+
+}
+.menuteto
+{
+	display: inline-block;
+	cursor: pointer;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 0.5rem;
+	font-weight: 400;
+	width: 15rem;
+	margin: 20px;
+	padding: 20px;
+	user-select: none;
+
+
+}
+.menuteto:hover
+{
+	-webkit-box-shadow: 8px -8px 0px 4px #ffffff; 
+	box-shadow: 8px -8px 0px 4px #ffffff;
+}
+
+.jomagam
+{
+	background-color: white;
+	border-radius: 0em 5em 5em 0em;
+	padding: 3em;
+	margin-left: 0;
+	margin-right: 5em;
+	margin-top: 0em;
+	text-align: center;
+
+	
+}
+h1
+{
+	text-align: left;
+	margin-left: 28%;
+}
+h2{
+	text-align: left;
+	margin-left: 33%;
+}
+.elerhetosegek
+{
+	position: relative;
+	border-radius: 0em 0em 4em 0em;
+	width: 70%;
+	background-color: #AF002A;
+	padding: .5em;
+
+	
+
+
+}
+a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.eleres:hover
+{
+	color: green;
+}
+.gmail
+{
+	color: white;
+}
+/*----rolam-----*/
+.rolam
+{
+	padding: 5em;
+	background-color: white;
+	display: inline-block;
+	border-radius: 0em 3em 0em 3em;
+	border-right: 2em outset #AF002A;
+	text-align: center;
+	
+	margin-left: 1em; 
+
+/*--------rolam----*/
+}
+/*--kepek--*/
+.grid
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem,1fr));
+	box-sizing: border-box;
+	grid-gap: 1.5rem;
+	margin: 3rem,10%;
+}
+.kartya img
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+
+}
+.kartya p
+{
+	text-align: center;
+/*--kepek--*/
+}
+/*----hogyankeszult---*/
+.hosszukartya
+{
+	display: block;
+	background-color: #ffffff;
+	padding: 1em;
+	margin: 0% 20% 0% 20%;
+	padding: 1%;
+	border-width: 30px;
+	border-style: outset;
+	border-color: #AF002A;
+	border-radius: 0px 40px 0px 40px;
+}
+.hosszukartya img
+{
+	width: 100%;
+	object-fit: contain;
+	border-width: 30px;
+	border-style: outset;
+	border-color: grey;
+	border-radius: 0px 40px 0px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
